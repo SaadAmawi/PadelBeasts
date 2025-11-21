@@ -5,17 +5,33 @@
     top: 20px; 
     margin-top: 20px;
     z-index: 1;
-    animation: fadeInDown 1.3s;
+    animation: fadeIn 1.3s;
     width: 100%;    
 }
+.logo{
+    margin-left: 20px;
+    width: 80px;
+}
+
 .glass{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 20px;
+}
+.buttons{
+    width: 80%;
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 .header-button{
     background: none;
     color: white;
     font-size: 22px;
+    width: fit-content;
+    text-wrap-mode: nowrap;
     border: none;
     transition: all 0.6s;
     font-family: "lexend";
@@ -23,4 +39,7 @@
         cursor:pointer;
         text-decoration: underline;
     }
+}
+.end{
+    width: 10%;
 }

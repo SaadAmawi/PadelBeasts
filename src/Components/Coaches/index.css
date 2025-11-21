@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-        animation: bouncInDown linear backwards;
+        animation: fadeIn linear backwards;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }

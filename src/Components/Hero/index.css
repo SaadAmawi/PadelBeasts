@@ -25,6 +25,7 @@ h2{
     font-size: 2vh;
     font-weight:300;
     text-wrap: nowrap;
+    animation: fadeIn 1.5s 1.5s backwards;
 }
 
 .hero-text{
@@ -59,10 +60,13 @@ video{
     height: fit-content;
     width: 90%;
     text-wrap: no;
+    animation: fadeIn 1.5s 1s backwards;
 }
 .image{
 width: 420px;
 aspect-ratio: 1 1;
+animation: fadeIn 3s  backwards;
+
 }
 
 @media screen and (max-width:1200px){
