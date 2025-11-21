@@ -1,0 +1,26 @@
+.Head{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 20px; 
+    margin-top: 20px;
+    z-index: 1;
+    animation: fadeInDown 1.3s;
+    width: 100%;    
+}
+.glass{
+    display: flex;
+    gap: 20px;
+}
+.header-button{
+    background: none;
+    color: white;
+    font-size: 22px;
+    border: none;
+    transition: all 0.6s;
+    font-family: "lexend";
+    &:hover{
+        cursor:pointer;
+        text-decoration: underline;
+    }
+}

@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import GlassSurface from './ReactBits/GlassSurface/GlassSurface';
-import ModelViewer from './ReactBits/ModelViewer/ModelViewer';
-
+import Header from './Components/Header';
+import Hero from './Components/Hero';
+import tapia from '../src/assets/images/tapiaBW.jpeg'
+import About from './Components/AboutUs';
+import Coaches from './Components/Coaches';
 function App() {
+  
   return (
-    <div >
-     <GlassSurface
-       
-  borderRadius={24}
-      className='glass'>
-      
-     </GlassSurface>
-     
-    <ModelViewer
-  url="./padel_court_or_paddle_court.glb"
-  width={400}
-  height={400}
-/>
+    <div className='App' >
+     <Header/>
+     <Hero/> 
+    <About/>
+    <Coaches/>
     </div>
   );
 }

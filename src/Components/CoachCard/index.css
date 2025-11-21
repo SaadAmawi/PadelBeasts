@@ -1,0 +1,13 @@
+.card-text{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.76);
+    color: white;
+    font-family: "lexend";
+    padding: 7%;
+    bottom: 0;
+    width: fit-content;
+    text-wrap-mode: nowrap;
+    border-radius: 20px;
+
+}

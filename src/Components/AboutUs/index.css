@@ -1,0 +1,44 @@
+.about-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px 100px 0px;
+}
+
+.text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Title{
+    font-family: "lexend";
+    font-size: 49px;
+    color: white;
+    animation: fadeIn linear backwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+.about{
+    text-wrap: wrap;
+    animation: fadeIn linear backwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+
+@keyframes fadeIn{
+    from{
+        transform: translateY(-200px);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
