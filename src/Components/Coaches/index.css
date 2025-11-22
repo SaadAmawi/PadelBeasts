@@ -1,56 +1,37 @@
-.Coaches{
-    height: 100vh;
+.Coaches-container{
+    height: fit-content;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-        animation: fadeIn linear backwards;
+    /* background-color: white; */
+}
+.content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.texts{
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  font-family: "lexend";
+          animation: fadeIn linear backwards;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
 }
-.grid-wrapper {
-  position: relative;
-  width: 100%;
-  min-height: 100vh;
-  overflow: hidden;
-}
 
-.grid-wrapper canvas {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 100% !important;
-  z-index: 1; /* stays behind */
-}
-
-.grid-content {
-  position: relative;
-  z-index: 2; /* above the grid */
-  padding-top: 100px;
-}
-
-.coaches {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 40px;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.title {
-  text-align: center;
-  font-size: 3rem;
-  margin-bottom: 60px;
-  color: #fff;
-  z-index: 2;
-  position: relative;
-}
 
 .title{
-    color: white;
-    font-family: "lexend";
-    font-size: 88px;
+  margin-top: 200px;
+  color: white;
+  font-family: "lexend";
+  font-size: 88px;
+  animation: fadeIn linear backwards;
+  animation-timeline: view();
+  animation-range: entry 0% cover 50%;
 }
 .coaches{
     display: grid;
