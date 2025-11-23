@@ -81,7 +81,7 @@ const ModelInner = ({
   enableHoverRotation,
   enableManualZoom,
   autoFrame,
-  fadeIn,
+  fadeInDown,
   autoRotate,
   autoRotateSpeed,
   onLoaded,
@@ -122,7 +122,7 @@ const ModelInner = ({
       if (o.isMesh) {
         o.castShadow = true;
         o.receiveShadow = true;
-        if (fadeIn) {
+        if (fadeInDown) {
           o.material.transparent = true;
           o.material.opacity = 0;
         }
@@ -147,7 +147,7 @@ const ModelInner = ({
       persp.updateProjectionMatrix();
     }
 
-    if (fadeIn) {
+    if (fadeInDown) {
       let t = 0;
       const id = setInterval(() => {
         t += 0.05;
@@ -382,7 +382,7 @@ const ModelViewer = ({
   autoFrame = false,
   placeholderSrc,
   showScreenshotButton = true,
-  fadeIn = false,
+  fadeInDown = false,
   autoRotate = false,
   autoRotateSpeed = 0.35,
   onModelLoaded,
@@ -507,7 +507,7 @@ const ModelViewer = ({
             enableHoverRotation={enableHoverRotation}
             enableManualZoom={enableManualZoom}
             autoFrame={autoFrame}
-            fadeIn={fadeIn}
+            fadeInDown={fadeInDown}
             autoRotate={autoRotate}
             autoRotateSpeed={autoRotateSpeed}
             onLoaded={onModelLoaded}

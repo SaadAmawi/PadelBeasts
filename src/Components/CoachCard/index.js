@@ -1,28 +1,26 @@
 import React from 'react'
-import TiltedCard from '../../ReactBits/TiltedCard/TiltedCard'
+import ProfileCard from '../../ReactBits/ProfileCard/ProfileCard'
+import ball from '../../assets/images/ball.png'
 import './index.css'
-function CoachCard({Name,Image}) {
+function CoachCard({Name,Image,handle,info}) {
   return (
-    <div>
-        <TiltedCard
-  imageSrc={Image}
-  altText="Kendrick Lamar - GNX Album Cover"
-  captionText={Name}
-  containerHeight="500px"
-  containerWidth="500px"
-  imageHeight="350px"
-  imageWidth="350px"
-  rotateAmplitude={12}
-  scaleOnHover={1.2}
-  showMobileWarning={false}
-  showTooltip={true}
-  displayOverlayContent={true}
-  overlayContent={
-    <p className="card-text">
-      {Name}
-    </p>
-  }
-/>
+    <div className='card'>
+       <ProfileCard
+        name={Name}
+        title="Padel Coach"
+        handle={handle}
+        status="Online"
+        contactText="Contact Me"
+        avatarUrl={Image}
+        showUserInfo={true}
+        enableTilt={true}
+        iconUrl={ball}
+        enableMobileTilt={false}
+        onContactClick={() => console.log('Contact clicked')}
+        /> 
+        <p className='info'>{info}</p>
+  
+
     </div>
   )
 }

@@ -1,19 +1,21 @@
 .about-container{
     width: 100%;
-    height: 60vh;
+    height: fit-content;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 0px 300px 0px;
+    padding: 150px 0px 0px 0px;
     position:relative;
+    flex-direction: column;
+    gap: 60px;
 
 }
 
 .abs{
-    height:70%;
-    width: 50%;
+    height:700px;
+    width: 500px;
     position: absolute;
-    right:-560px;
+    right:-360px;
     bottom: -300px;
     z-index: 5;
     rotate: 30deg;
@@ -22,7 +24,7 @@
     animation-range: entry 0% cover 30%;
 }
 .left{
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,8 +39,7 @@
     animation: bounce 1s infinite backwards;
 }
 iframe{
-    height: 50%;
-    width: 70%;
+    width: 100%;
     border: none;
     aspect-ratio: 1;
     animation: fadeIn linear backwards;
@@ -46,42 +47,45 @@ iframe{
     animation-range: entry 0% cover 30%;
 }
 .right{
-    width: 50%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.text{
+.text-section{
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    z-index: -1;
+    animation: fadeIn linear backwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 35%;
 }
 
 .Title{
     text-align: center;
-    font-family: "lexend";
+    font-weight: 500;
+    margin-bottom: 0px;
+    font-family: "Shrikhand";
+    letter-spacing: 1px;
     font-size: 49px;
     color: white;
-    animation: fadeIn linear backwards;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+
 }
 
 .about{
     text-wrap: wrap;
-    animation: fadeIn linear backwards;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+
 }
 
 @keyframes fadeIn{
     from{
         transform: translateY(-200px);
-        scale: 0.8;
+        /* scale: 0.8; */
         opacity: 0;
     }
     to{

@@ -4,6 +4,7 @@ import Hero from './Components/Hero';
 import tapia from '../src/assets/images/tapiaBW.jpeg'
 import About from './Components/AboutUs';
 import Coaches from './Components/Coaches';
+import CurvedLoop from './ReactBits/CurvedLoop/CurvedLoop';
 function App() {
   
   return (
@@ -11,6 +12,14 @@ function App() {
      <Header/>
      <Hero/> 
     <About/>
+<CurvedLoop 
+  marqueeText="Play | Train | Improve | Compete | UNLEASH THE BEAST "
+  speed={2}
+  curveAmount={500}
+  direction="left"
+  interactive={true}
+  className="css"
+/>
     <Coaches/>
 
     </div>

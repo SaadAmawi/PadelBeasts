@@ -1,3 +1,10 @@
+.card:hover{
+    height: fit-content;
+    .info{
+        color: white;
+    }
+}
+
 .card-text{
     margin-left: 20px;
     margin-top: 20px;
@@ -5,9 +12,19 @@
     color: white;
     font-family: "lexend";
     padding: 7%;
-
     width: fit-content;
     text-wrap-mode: nowrap;
     border-radius: 20px;
 
+}
+
+.info{
+    color: white;
+    padding: 0px 10px 0px 10px;
+    font-family: "lexend";
+    font-size: 18px;
+    text-align: center;
+    font-weight: 100;
+    color: black;
+    transition: ease-in-out 0.2s;
 }
