@@ -89,6 +89,9 @@ iframe{
         opacity: 0;
     }
     to{
+        transform: translateY(0px);
+        /* scale: 0.8; */
         opacity: 1;
+        
     }
 }

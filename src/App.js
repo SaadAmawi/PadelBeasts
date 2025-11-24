@@ -5,6 +5,7 @@ import tapia from '../src/assets/images/tapiaBW.jpeg'
 import About from './Components/AboutUs';
 import Coaches from './Components/Coaches';
 import CurvedLoop from './ReactBits/CurvedLoop/CurvedLoop';
+import Footer from './Components/Footer';
 function App() {
   
   return (
@@ -21,6 +22,7 @@ function App() {
   className="css"
 />
     <Coaches/>
+    <Footer/>
 
     </div>
   );

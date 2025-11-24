@@ -6,7 +6,8 @@ function Header() {
   return (
     <div className='Head'>
         <GlassSurface
-     width="70%"
+     width="80%"
+     height="65px"
      > 
      <div className='glass'>
     <div className='logo'>
