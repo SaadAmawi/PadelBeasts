@@ -1,5 +1,6 @@
 .Coaches-container{
     height: fit-content;
+    margin-top: 50px;
     width: 70%;
     display: flex;
     justify-content: center;
@@ -8,7 +9,7 @@
     /* background-color: white; */
 }
 .content{
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;

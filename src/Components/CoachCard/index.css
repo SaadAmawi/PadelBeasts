@@ -6,6 +6,9 @@
 }
 .card{
     width: 100%;
+    animation: fadeIn linear backwards;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
 }
 .card-text{
     margin-left: 20px;

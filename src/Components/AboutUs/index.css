@@ -1,5 +1,5 @@
 .about-container{
-    width: 100%;
+    width: 70%;
     height: fit-content;
     display: flex;
     justify-content: space-between;
@@ -85,7 +85,7 @@ iframe{
 @keyframes fadeIn{
     from{
         transform: translateY(-200px);
-        /* scale: 0.8; */
+        scale: 0.8;
         opacity: 0;
     }
     to{
