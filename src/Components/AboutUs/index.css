@@ -47,14 +47,14 @@ iframe{
     animation-range: entry 0% cover 30%;
 }
 .right{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .text-section{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

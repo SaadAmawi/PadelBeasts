@@ -1,0 +1,123 @@
+.newsletter-container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.cta2{
+    font-family: "lexend";
+    font-size: 28px;
+    color: white;
+    font-weight: 200;
+
+}
+.cta{
+    width: 100%;
+    margin: 0;
+    font-family: "Shrikhand";
+    font-weight: 100;
+    font-size: 42px;
+    text-align: left;
+    color: white;
+}
+.check{
+    display: flex;
+    gap: 20px;
+
+}
+input[type="checkbox"] {
+  transform: scale(1.4); 
+}
+.email{
+    width: 100%;
+    height: 3vmax;
+    padding-left: 9px;
+    border-radius: 0;
+    &::placeholder{
+        font-family: "shrikhand";
+        font-weight: 100;
+    }
+    &:focus{
+        border: red;
+    }
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    width: 80%;
+    height: 80%;
+    animation: breath infinite 4s both;
+}
+.submit{
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    color:#2e5197 ;
+    height: 40px;
+    border-radius:30px;
+    font-family: "lexend";
+    font-weight: 300;
+    border: none;
+    &::after{
+        position: absolute;
+        content:"";
+        width: 100%;
+        height: 100%;
+        filter: blur(2px);
+        background: conic-gradient(
+  from var(--angle),
+  #fafcff 0deg,
+  #697894 180deg,
+  #1356ff 180deg,
+  #1084ff 360deg
+);
+        animation: spinBorder 8s linear infinite;
+        z-index: -1;
+        border-radius: 30px;
+        padding: 5px;
+        top: 50%;
+        left:50%;
+        translate: -50% -50%;
+
+    }
+}
+@property --angle{
+    syntax:"<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes spinBorder{
+    from{
+        --angle:0deg;
+    }
+    to{
+        --angle:360deg;
+    }
+}
+
+@keyframes breath {
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 1.1;
+
+    }
+    100%{
+        scale: 1;
+    }
+    
+}

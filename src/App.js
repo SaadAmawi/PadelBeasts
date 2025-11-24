@@ -6,6 +6,7 @@ import About from './Components/AboutUs';
 import Coaches from './Components/Coaches';
 import CurvedLoop from './ReactBits/CurvedLoop/CurvedLoop';
 import Footer from './Components/Footer';
+import Newsletter from './Components/NewsLetter';
 function App() {
   
   return (
@@ -22,6 +23,7 @@ function App() {
   className="css"
 />
     <Coaches/>
+    <Newsletter/>
     <Footer/>
 
     </div>
