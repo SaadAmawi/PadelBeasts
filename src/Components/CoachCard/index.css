@@ -4,7 +4,9 @@
         color: white;
     }
 }
-
+.card{
+    width: 100%;
+}
 .card-text{
     margin-left: 20px;
     margin-top: 20px;

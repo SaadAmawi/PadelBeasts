@@ -31,7 +31,7 @@
     align-items: center;
 }
 .color{
-    background: linear-gradient(to right,#e258f4,#a051e9,#7e9ff7,#747fff);
+    background: linear-gradient(to right,#2e5197,#6177a1, #697894 );
     background-clip: text;
     color: transparent;
 }

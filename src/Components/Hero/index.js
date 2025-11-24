@@ -16,7 +16,6 @@ function Hero() {
             muted
             playsInline
             preload="auto"
-            height="100%"
             />
             <div class="gradient-overlay"></div>
             </div>
