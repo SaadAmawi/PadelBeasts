@@ -40,8 +40,7 @@
   margin-top: 50px;
     display: grid;
     grid-template-columns: 410px 410px 410px;
- grid-auto-columns: min-content;
     gap: 20px;
-    row-gap: 10px;
+    row-gap: 30px;
 }
 

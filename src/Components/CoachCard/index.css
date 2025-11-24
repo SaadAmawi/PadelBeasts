@@ -9,6 +9,8 @@
     animation: fadeIn linear backwards;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
+    height: fit-content;
+    padding: 20px;
 }
 .card-text{
     margin-left: 20px;

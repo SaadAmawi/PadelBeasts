@@ -9,7 +9,7 @@
 .dark-image{
   display:inline-block;
   background: rgba(0, 0, 0, 0.511);
-  width: 80%;
+  /* width: 80%; */
 }
 
 img{

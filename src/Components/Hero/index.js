@@ -7,7 +7,7 @@ import TextPressure from '../../ReactBits/TextPressure/TextPressure';
 function Hero() {
   return (
     <div className='hero'>
-        <div className='header'>
+        {/* <div className='header'> */}
             <div className='video-bg'>
             <video 
             src="https://video.wixstatic.com/video/df30b2_81cf8923655a4795b9bf807fcd937df7/1080p/mp4/file.mp4"
@@ -39,7 +39,7 @@ function Hero() {
             <h2> PADEL | COACHING | TOURNAMENTS | FITNESS | ACADEMY  </h2>
 
             </div>
-        </div>
+        {/* </div> */}
     </div>
   )
 }

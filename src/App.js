@@ -14,7 +14,7 @@ function App() {
     <About/>
 <CurvedLoop 
   marqueeText="Play | Train | Improve | Compete | UNLEASH THE BEAST "
-  speed={2}
+  speed={1}
   curveAmount={500}
   direction="left"
   interactive={true}
