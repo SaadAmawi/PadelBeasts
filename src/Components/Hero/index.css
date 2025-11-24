@@ -67,7 +67,7 @@ video{
     text-wrap: no;
     animation: fadeIn 1.5s 1s backwards;
 }
-.image{
+.image-logo{
 width: 40%;
 aspect-ratio: 1 1;
 animation: fadeIn 3s  backwards;

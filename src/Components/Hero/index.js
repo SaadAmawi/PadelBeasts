@@ -21,7 +21,7 @@ function Hero() {
             </div>
         
             <div className='hero-text'>
-            <img src={logo} className='image'></img>
+            <img src={logo} className='image-logo'></img>
             <div className='text'>
                 
             <TextPressure 
