@@ -4,7 +4,12 @@
         color: white;
     }
 }
-
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .card-text{
     margin-left: 20px;
     margin-top: 20px;

@@ -7,6 +7,9 @@ import Coaches from './Components/Coaches';
 import CurvedLoop from './ReactBits/CurvedLoop/CurvedLoop';
 import Footer from './Components/Footer';
 import Newsletter from './Components/NewsLetter';
+import GradualBlurMemo from './ReactBits/Gradual Blue/GradualBlur';
+import GradualBlur from './ReactBits/Gradual Blue/GradualBlur'
+import Info from './Components/info';
 function App() {
   
   return (
@@ -14,18 +17,21 @@ function App() {
      <Header/>
      <Hero/> 
     <About/>
-<CurvedLoop 
-  marqueeText="Play | Train | Improve | Compete | UNLEASH THE BEAST "
-  speed={1}
-  curveAmount={500}
-  direction="left"
-  interactive={true}
-  className="css"
-/>
+    <GradualBlur/>
+      <CurvedLoop 
+        marqueeText="Play | Train | Improve | Compete | UNLEASH THE BEAST "
+        speed={1}
+        curveAmount={500}
+        direction="left"
+        interactive={true}
+        className="css"
+      />
+      
     <Coaches/>
+    <Info/>
     <Newsletter/>
     <Footer/>
-
+    
     </div>
   );
 }

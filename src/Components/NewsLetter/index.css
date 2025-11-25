@@ -82,8 +82,8 @@ input[type="checkbox"] {
   from var(--angle),
   #fafcff 0deg,
   #697894 180deg,
-  #1356ff 180deg,
-  #1084ff 360deg
+  #0e2c66 180deg,
+  #0e3075 360deg
 );
         animation: spinBorder 8s linear infinite;
         z-index: -1;
