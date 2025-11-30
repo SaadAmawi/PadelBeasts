@@ -42,6 +42,7 @@ iframe{
     width: 100%;
     border: none;
     aspect-ratio: 1;
+    height: 60vh;
     animation: fadeIn linear backwards;
     animation-timeline: view();
     animation-range: entry 0% cover 30%;
@@ -49,6 +50,7 @@ iframe{
 .right{
     width: 100%;
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;

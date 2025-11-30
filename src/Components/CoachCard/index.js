@@ -7,7 +7,7 @@ function CoachCard({Name,Image,handle,info}) {
     <div className='card'>
        <ProfileCard
         name={Name}
-        title=""
+        title="Coach"
         handle={handle}
         status="Online"
         contactText="Contact Me"

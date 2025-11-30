@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: fit-content;
 }
 .card-text{
     margin-left: 20px;
@@ -24,6 +25,7 @@
 }
 
 .info{
+    width: 100%;
     color: white;
     padding: 0px 10px 0px 10px;
     font-family: "lexend";

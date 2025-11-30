@@ -10,6 +10,9 @@ import Newsletter from './Components/NewsLetter';
 import GradualBlurMemo from './ReactBits/Gradual Blue/GradualBlur';
 import GradualBlur from './ReactBits/Gradual Blue/GradualBlur'
 import Info from './Components/info';
+import FlowingMenu from './ReactBits/Flowing Menu/FlowingMenu';
+import demoItems from './utils'
+import LogoLoop from './ReactBits/LogoLoop/LogoLoop';
 function App() {
   
   return (
@@ -28,7 +31,17 @@ function App() {
       />
       
     <Coaches/>
-    <Info/>
+    <LogoLoop 
+    logos={demoItems}
+        speed={120}
+        direction="right"
+        logoHeight={78}
+        gap={40}
+        hoverSpeed={0}
+        scaleOnHover
+        fadeOut
+        fadeOutColor="#141414"
+        />
     <Newsletter/>
     <Footer/>
     
