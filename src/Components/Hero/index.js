@@ -6,7 +6,7 @@ import video from '../../assets/images/file.mp4'
 import TextPressure from '../../ReactBits/TextPressure/TextPressure';
 function Hero() {
   return (
-    <div className='hero'>
+    <div className='hero' id="home">
         {/* <div className='header'> */}
             <div className='video-bg'>
             <video 

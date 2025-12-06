@@ -4,7 +4,7 @@ import padel from '../../assets/images/padel2.png'
 function About() {
 
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       
       {/* <img src={padel} className='abs'/> */}
       <div className='left'>

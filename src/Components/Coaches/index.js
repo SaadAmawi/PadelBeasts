@@ -10,7 +10,7 @@ import lomp from '../../assets/images/lop.png'
 import Iris from '../../assets/images/coach22.png'
 function Coaches() {
   return (
-    <div className='Coaches-container'>
+    <div className='Coaches-container' id="coaches">
       <div className='content'>
         <h1 className='title'>Our <span className="color">Coaches</span></h1>
         <p className='texts'>Our experienced coaches provide personalized one-on-one lessons as well as group lessons for two or more players to improve your padel skills and enhance your game. Whether you're a beginner or an advanced player, we have the expertise to help you reach your full potential.</p>

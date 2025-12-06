@@ -3,7 +3,7 @@ import PBC from '../../assets/images/PBC.png'
 import './index.css'
 function Newsletter() {
   return (
-    <div className='newsletter-container'>
+    <div className='newsletter-container' id="contact">
         <div className='left'>
             <img src={PBC} className='image'/>
         </div>
