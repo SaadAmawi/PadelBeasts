@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react'
 import './index.css'
-import padel from '../../assets/images/padel2.png'
 function About() {
 
   return (

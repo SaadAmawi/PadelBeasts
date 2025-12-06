@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import GlassSurface from '../../ReactBits/GlassSurface/GlassSurface';
 import image from '../../assets/images/logo 2.png'
 import './index.css'
@@ -20,7 +20,7 @@ function Header() {
      > 
      <div className='glass'>
     <div className='logo'>
-    <img src={image} width={20} height={60}/>
+    <img src={image} width={20} height={60} alt="logo"/>
     </div>
     <div className='buttons'>
      <button className='header-button' onClick={()=>{scrollToSection('home')}}>Home</button>

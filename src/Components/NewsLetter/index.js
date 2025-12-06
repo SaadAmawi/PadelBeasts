@@ -1,11 +1,10 @@
-import React from 'react'
 import PBC from '../../assets/images/PBC.png'
 import './index.css'
 function Newsletter() {
   return (
     <div className='newsletter-container' id="contact">
         <div className='left'>
-            <img src={PBC} className='image'/>
+            <img src={PBC} className='image' alt='logo'/>
         </div>
         <div className='right'>
             <h1 className='cta'>

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './index.css'
 
 function InfoCards({image, Title, description}) {

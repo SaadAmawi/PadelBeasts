@@ -1,8 +1,5 @@
-import React from 'react'
-import Beams from '../../ReactBits/Backgrounds/Beams/Beams';
 import './index.css'
 import logo from '../../assets/images/logo 2.png'
-import video from '../../assets/images/file.mp4'
 import TextPressure from '../../ReactBits/TextPressure/TextPressure';
 function Hero() {
   return (
@@ -21,7 +18,7 @@ function Hero() {
             </div>
         
             <div className='hero-text'>
-            <img src={logo} className='image-logo'></img>
+            <img src={logo} className='image-logo' alt="logo"></img>
             <div className='text'>
                 
             <TextPressure 
