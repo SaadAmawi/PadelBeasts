@@ -171,12 +171,7 @@ iframe{
     .Title {
         font-size: 24px;
     }
-    .text-section{
-        animation-name: none;
-    }
-    iframe{
-        animation-name: none;
-    }
+
     
     iframe {
         height: 30vh;

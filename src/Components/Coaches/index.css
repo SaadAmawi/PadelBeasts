@@ -16,16 +16,7 @@
     /* border-radius: 50px 59px 50px 50px; */
 }
 
-/* Progressive enhancement for browsers with scroll-driven animations */
-@supports (animation-timeline: view()) {
-    .Coaches-container {
-        animation-name: fadeIn;
-        animation-timing-function: linear;
-        animation-fill-mode: backwards;
-        animation-timeline: view();
-        animation-range: entry 0% cover 50%;
-    }
-}
+
 .content{
   width: 100%;
   display: flex;
