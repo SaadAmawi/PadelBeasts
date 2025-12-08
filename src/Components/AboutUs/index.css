@@ -7,7 +7,7 @@
     padding: 150px 0px 0px 0px;
     position:relative;
     flex-direction: column;
-    gap: 10px;
+    gap: 1  0px;
     animation-name: fadeIn;
         animation-timing-function: linear;
         animation-fill-mode: backwards;
