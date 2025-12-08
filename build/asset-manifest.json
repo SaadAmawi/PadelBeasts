@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0ade0cfd.css",
+    "main.js": "/static/js/main.69fd9932.js",
+    "static/media/PBC.png": "/static/media/PBC.b9922e4721edc62e3330.png",
+    "static/media/logo 2.png": "/static/media/logo 2.c8e626896c57256bb4b5.png",
+    "static/media/navaro2.png": "/static/media/navaro2.fe1778b90e36ab24450a.png",
+    "static/media/bern.png": "/static/media/bern.7fc80ff33b3a90616d53.png",
+    "static/media/coach22.png": "/static/media/coach22.fbf9ebd3990711be6185.png",
+    "static/media/cristina2.png": "/static/media/cristina2.2e6f5e2dc8e359446b41.png",
+    "static/media/art.png": "/static/media/art.4e33e318d3013a10de6e.png",
+    "static/media/lop.png": "/static/media/lop.ebeb00f5d0761d5b010f.png",
+    "static/media/ball.png": "/static/media/ball.d02e75533f8034a912e6.png",
+    "index.html": "/index.html",
+    "main.0ade0cfd.css.map": "/static/css/main.0ade0cfd.css.map",
+    "main.69fd9932.js.map": "/static/js/main.69fd9932.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ade0cfd.css",
+    "static/js/main.69fd9932.js"
+  ]
+}

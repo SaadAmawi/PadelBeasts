@@ -1,8 +1,9 @@
 .card:hover{
     height: fit-content;
-    .info{
-        color: white;
-    }
+}
+
+.card:hover .info{
+    color: white;
 }
 .card{
     display: flex;

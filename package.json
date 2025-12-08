@@ -51,6 +51,7 @@
   },
   "devDependencies": {
     "eslint-plugin-react-refresh": "^0.4.24",
+    "postcss-preset-env": "^10.5.0",
     "typescript": "^4.9.5"
   }
 }

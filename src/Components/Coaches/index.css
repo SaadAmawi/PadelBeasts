@@ -8,11 +8,18 @@
     /* background-color: white; */
     margin-top: 150px;
     margin-bottom: 150px;
-    animation: fadeIn linear backwards;
-    animation-timeline: view();
-    animation-range: entry 0% cover 50%;
+    /* Fallback for browsers without scroll-driven animations */
+    animation: fadeIn 1s ease-out backwards;
     /* border-radius: 50px 59px 50px 50px; */
+}
 
+/* Progressive enhancement for browsers with scroll-driven animations */
+@supports (animation-timeline: view()) {
+    .Coaches-container {
+        animation: fadeIn linear backwards;
+        animation-timeline: view();
+        animation-range: entry 0% cover 50%;
+    }
 }
 .content{
   width: 100%;
