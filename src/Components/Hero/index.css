@@ -26,7 +26,10 @@ h2{
     letter-spacing: 2px;
     font-weight:300;
     text-wrap: nowrap;
-    animation: fadeIn 1.5s 1.5s backwards;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: backwards;
 }
 
 .hero-text{
@@ -65,12 +68,17 @@ video{
     height: fit-content;
     width: 90%;
     text-wrap: no;
-    animation: fadeIn 1.5s 1s backwards;
+    animation-name: fadeIn;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
 }
 .image-logo{
 width: 40%;
 aspect-ratio: 1 1;
-animation: fadeIn 3s  backwards;
+animation-name: fadeIn;
+animation-duration: 3s;
+animation-fill-mode: backwards;
 
 }
 

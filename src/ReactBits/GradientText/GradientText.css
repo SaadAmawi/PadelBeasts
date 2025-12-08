@@ -21,7 +21,9 @@
   right: 0;
   bottom: 0;
   background-size: 300% 100%;
-  animation: gradient linear infinite;
+  animation-name: gradient;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
   border-radius: inherit;
   z-index: 0;
   pointer-events: none;
@@ -64,5 +66,7 @@
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  animation: gradient linear infinite;
+  animation-name: gradient;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }

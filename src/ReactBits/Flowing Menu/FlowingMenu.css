@@ -70,7 +70,10 @@
   height: 100%;
   width: 200%;
   will-change: transform;
-  animation: marquee 15s linear infinite;
+  animation-name: marquee;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .marquee span {

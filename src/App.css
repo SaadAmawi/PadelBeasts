@@ -33,7 +33,9 @@ img{
 .logos{
   height: 60%;
   width: 50%;
-  animation: wave 4s infinite;
+  animation-name: wave;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes wave {

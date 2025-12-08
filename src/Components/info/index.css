@@ -14,7 +14,9 @@
     align-items: center;
     height: fit-content;
     padding: 100px 0px 100px 0px;
-    animation: fadeIn linear backwards;
+    animation-name: fadeIn;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
