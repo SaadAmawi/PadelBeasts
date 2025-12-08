@@ -121,14 +121,14 @@ animation: fadeIn 3s  backwards;
 
 @media screen and (max-width: 480px) {
     .hero {
-        height: 70vh;
+        height: 100vh;
         width: 100%;
         margin-top: -100px;
         padding-top: 0;
     }
     
     .video-bg {
-        height: 70vh;
+        height: 100vh;
     }
     
     .hero-text {
