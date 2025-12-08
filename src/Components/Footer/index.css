@@ -50,10 +50,11 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    .socials{
-        display: flex;
-        gap: 20px;
-    }
+}
+
+.bottom .socials{
+    display: flex;
+    gap: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -108,11 +109,11 @@ a{
     
     .bottom {
         margin-top: 20px;
-        
-        .socials {
-            gap: 15px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
+    }
+    
+    .bottom .socials {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
