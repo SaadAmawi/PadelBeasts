@@ -34,6 +34,8 @@
 .check{
     display: flex;
     gap: 20px;
+    align-content: center;
+    justify-content: center;
 
 }
 input[type="checkbox"] {

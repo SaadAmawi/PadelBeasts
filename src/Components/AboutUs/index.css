@@ -7,7 +7,12 @@
     padding: 150px 0px 0px 0px;
     position:relative;
     flex-direction: column;
-    gap: 60px;
+    gap: 10px;
+    animation-name: fadeIn;
+        animation-timing-function: linear;
+        animation-fill-mode: backwards;
+        animation-timeline: view();
+        animation-range: entry 0% cover 65%;
 
 }
 
@@ -35,6 +40,7 @@ iframe{
     border: none;
     aspect-ratio: 1;
     height: 60vh;
+    /* max-width: 1250px; */
     /* Fallback for browsers without scroll-driven animations */
     animation-name: fadeIn;
     animation-duration: 1s;
@@ -42,16 +48,7 @@ iframe{
     animation-fill-mode: backwards;
 }
 
-/* Progressive enhancement for browsers with scroll-driven animations */
-@supports (animation-timeline: view()) {
-    iframe {
-        animation-name: fadeIn;
-        animation-timing-function: linear;
-        animation-fill-mode: backwards;
-        animation-timeline: view();
-        animation-range: entry 0% cover 60%;
-    }
-}
+
 .right{
     width: 50%;
     display: flex;
@@ -67,23 +64,14 @@ iframe{
     align-items: center;
     gap: 20px;
     z-index: -1;
-    /* Fallback for browsers without scroll-driven animations */
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: backwards;
+    max-width: 1250px;
 }
 
-/* Progressive enhancement for browsers with scroll-driven animations */
-@supports (animation-timeline: view()) {
-    .text-section {
-        animation-name: fadeIn;
-        animation-timing-function: linear;
-        animation-fill-mode: backwards;
-        animation-timeline: view();
-        animation-range: entry 0% cover 65%;
-    }
-}
+
 
 .Title{
     text-align: center;
