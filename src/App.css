@@ -5,6 +5,7 @@
   justify-content: center;
   display: relative;
   margin: 0;
+  width: 100%;
 }
 .dark-image{
   display:inline-block;
@@ -41,5 +42,27 @@ img{
   }
   50% {
     transform: scaleY(1) scaleX(1); 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    height: 60vh;
+  }
+  
+  .logos {
+    height: 50%;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image-container {
+    height: 50vh;
+  }
+  
+  .logos {
+    height: 40%;
+    width: 80%;
   }
 }

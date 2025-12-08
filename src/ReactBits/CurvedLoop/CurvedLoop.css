@@ -1,6 +1,7 @@
 .curved-loop-jacket {
   min-height: fit-content;
   margin-bottom: 200px;
+  margin-top: -100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,4 +22,10 @@
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1;
+}
+@media screen and (max-width:768px) {
+  .curved-loop-jacket{
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
 }

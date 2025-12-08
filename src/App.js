@@ -6,7 +6,6 @@ import Coaches from './Components/Coaches';
 import CurvedLoop from './ReactBits/CurvedLoop/CurvedLoop';
 import Footer from './Components/Footer';
 import Newsletter from './Components/NewsLetter';
-import GradualBlur from './ReactBits/Gradual Blue/GradualBlur'
 import demoItems from './utils'
 import LogoLoop from './ReactBits/LogoLoop/LogoLoop';
 function App() {
@@ -16,7 +15,6 @@ function App() {
      <Header/>
      <Hero/> 
     <About/>
-    <GradualBlur/>
       <CurvedLoop 
         marqueeText="Play | Train | Improve | Compete | UNLEASH THE BEAST "
         speed={1}

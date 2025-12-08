@@ -11,12 +11,12 @@
 .video-bg{
     position: relative;
   width: 100%;
-  height: 100vh;
+  height: 99vh;
   overflow: hidden;
 }
 .header{
     width: 100%;
-    display: flex;
+    /* display: flex; */
 }
 h2{
     font-family: "lexend";
@@ -76,23 +76,71 @@ animation: fadeIn 3s  backwards;
 
 @media screen and (max-width:1200px){
     .hero-text{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
+        width: 60%;
+    }
+    
+    .text{
+        width: 90%;
+    }
+    
+    .image-logo{
+        width: 50%;
+    }
 }
-.text{
-    height: fit-content;
-    width: 80%;
-    text-wrap: nowrap;
+
+@media screen and (max-width: 768px) {
+    .hero {
+        height: 80vh;
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    .video-bg {
+        height: 80vh;
+    }
+    
+    .hero-text {
+        width: 80%;
+    }
+    
+    h2 {
+        font-size: 1.5vh;
+        letter-spacing: 1px;
+        text-wrap: wrap;
+    }
+    
+    .text {
+        width: 95%;
+    }
+    
+    .image-logo {
+        width: 60%;
+    }
 }
-.image{
-width: 300px;
-aspect-ratio: 1 1;
-}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        height: 70vh;
+        width: 100%;
+        margin-top: -100px;
+        padding-top: 0;
+    }
+    
+    .video-bg {
+        height: 70vh;
+    }
+    
+    .hero-text {
+        width: 90%;
+    }
+    
+    h2 {
+        font-size: 1.2vh;
+        letter-spacing: 0.5px;
+    }
+    
+    .image-logo {
+        width: 70%;
+    }
 }

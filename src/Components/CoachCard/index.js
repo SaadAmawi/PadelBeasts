@@ -7,7 +7,7 @@ function CoachCard({Name,Image,handle,info}) {
     <div className='card'>
        <ProfileCard
         name={Name}
-        title="Coach"
+        title=""
         handle={handle}
         status="Online"
         contactText="Contact Me"
@@ -18,7 +18,7 @@ function CoachCard({Name,Image,handle,info}) {
         enableMobileTilt={false}
         onContactClick={() => console.log('Contact clicked')}
         /> 
-        <p className='info'>{info}</p>
+        {/* <p className='info'>{info}</p> */}
   
 
     </div>

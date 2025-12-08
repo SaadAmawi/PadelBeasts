@@ -1,13 +1,13 @@
 .Coaches-container{
     height: fit-content;
-    width: 70%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     /* background-color: white; */
-    margin-top: 50px;
-    margin-bottom: 200px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     animation: fadeIn linear backwards;
     animation-timeline: view();
     animation-range: entry 0% cover 50%;
@@ -25,12 +25,13 @@
   text-align: center;
   font-size: 22px;
   font-family: "lexend";
+  width: 100%;
       
 }
 
 
 .title{
-  margin-top: 200px;
+  margin-top: 100px;
   margin-bottom: 0px;
   color: white;
   font-family: "Shrikhand";
@@ -41,7 +42,70 @@
   margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0px;
+    gap: 10px;
     row-gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .Coaches-container {
+        width: 85%;
+        margin-bottom: 150px;
+    }
+    
+    .title {
+        margin-top: 150px;
+        font-size: 64px;
+    }
+    
+    .texts {
+        font-size: 18px;
+    }
+    
+    .coaches {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Coaches-container {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    
+    .title {
+        margin-top: 100px;
+        font-size: 48px;
+    }
+    
+    .texts {
+        font-size: 16px;
+    }
+    
+    .coaches {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Coaches-container {
+        width: 95%;
+        margin-top: 0px;
+    }
+    
+    .title {
+        margin-top: 0px;
+        font-size: 36px;
+    }
+    
+    .texts {
+        font-size: 14px;
+    }
+    
+    .coaches {
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+        gap:10px
+    }
 }
 

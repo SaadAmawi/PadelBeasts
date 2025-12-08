@@ -16,7 +16,7 @@ function Newsletter() {
             <input type='email' className='email' placeholder='email@gmail.com'/>
             <div className='check'>
             <input type='checkbox' className='checkbox'/>
-            <p className='cta2' style={{fontSize:"24px"}}>Yes, subscribe me to your newsletter</p>
+            <p className='cta2' style={{fontSize:"18px"}}>Yes, subscribe me to your newsletter</p>
             </div>
             <button className='submit'>
                 Submit

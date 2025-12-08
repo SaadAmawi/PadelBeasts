@@ -1,3 +1,7 @@
+html {
+/* overflow-x: hidden; */
+}
+
 body {
 margin: 0;
 padding: 0;
@@ -8,4 +12,11 @@ overflow-x: hidden;
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width:500px) {
+  html{
+    overflow-x: hidden;
+  }
+  
 }

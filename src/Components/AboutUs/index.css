@@ -1,5 +1,5 @@
 .about-container{
-    width: 70%;
+    width: 100%;
     height: fit-content;
     display: flex;
     justify-content: space-between;
@@ -11,20 +11,9 @@
 
 }
 
-.abs{
-    height:700px;
-    width: 500px;
-    position: absolute;
-    right:-360px;
-    bottom: -300px;
-    z-index: 5;
-    rotate: 30deg;
-    animation: fadeIn linear backwards;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-}
+
 .left{
-    width: 100%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,12 +34,11 @@ iframe{
     height: 60vh;
     animation: fadeIn linear backwards;
     animation-timeline: view();
-    animation-range: entry 0% cover 30%;
+    animation-range: entry 0% cover 60%;
 }
 .right{
-    width: 100%;
+    width: 50%;
     display: flex;
-
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -65,7 +53,7 @@ iframe{
     z-index: -1;
     animation: fadeIn linear backwards;
     animation-timeline: view();
-    animation-range: entry 0% cover 35%;
+    animation-range: entry 0% cover 65%;
 }
 
 .Title{
@@ -86,14 +74,82 @@ iframe{
 
 @keyframes fadeIn{
     from{
-        transform: translateY(-200px);
-        scale: 0.8;
         opacity: 0;
     }
     to{
-        transform: translateY(0px);
-        /* scale: 0.8; */
         opacity: 1;
         
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-container {
+        width: 90%;
+        padding: 80px 0px 0px 0px;
+        gap: 40px;
+        flex-direction: column;
+    }
+    
+    .left {
+        width: 100%;
+    }
+    
+    .right {
+        width: 100%;
+    }
+    
+    .abs {
+        height: 400px;
+        width: 300px;
+        right: -200px;
+        bottom: -200px;
+    }
+    
+    .Title {
+        font-size: 32px;
+    }
+    
+    iframe {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .about-container {
+        width: 95%;
+        padding: 60px 0px 0px 0px;
+        gap: 30px;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    
+    .left {
+        width: 100%;
+        animation: none;
+    }
+    
+    .right {
+        width: 100%;
+    }
+    
+    .abs {
+        height: 300px;
+        width: 200px;
+        right: -150px;
+        bottom: -150px;
+    }
+    
+    .Title {
+        font-size: 24px;
+    }
+    .text-section{
+        animation: none;
+    }
+    iframe{
+        animation: none;
+    }
+    
+    iframe {
+        height: 30vh;
     }
 }

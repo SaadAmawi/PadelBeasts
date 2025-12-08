@@ -3,8 +3,9 @@
     justify-content: center;
     position: sticky;
     top: 20px; 
-    margin-top: 20px;
-    z-index: 1;
+    left: 0;
+    right: 0;
+    z-index: 10;
     animation: fadeIn 1.3s;
     width: 100%;    
 }
@@ -42,4 +43,54 @@
 }
 .end{
     width: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    .Head {
+        top: 10px;
+        margin-top: 10px;
+    }
+    
+    .logo {
+        width: 50px;
+        margin-left: 10px;
+    }
+    
+    .glass {
+        gap: 10px;
+    }
+    
+    .buttons {
+        width: 70%;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+    
+    .header-button {
+        font-size: 12px;
+    }
+    
+    .end {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Head {
+        top: 10px;
+        margin-top: 10px;
+    }
+    .logo {
+        width: 40px;
+        margin-left: 5px;
+    }
+    
+    .buttons {
+        width: 65%;
+        gap: 5px;
+    }
+    
+    .header-button {
+        font-size: 10px;
+    }
 }
