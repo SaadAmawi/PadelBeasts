@@ -88,17 +88,6 @@
   }
 }
 
-@supports not (backdrop-filter: blur(10px)) {
-  @media (prefers-color-scheme: dark) {
-    .glass-surface--fallback {
-      background: rgba(0, 0, 0, 0.4);
-    }
-
-    .glass-surface--fallback::before {
-      background: rgba(255, 255, 255, 0.05);
-    }
-  }
-}
 
 .glass-surface:focus-visible {
   outline: 2px solid light-dark(#007aff, #0a84ff);

@@ -141,7 +141,7 @@ animation: fadeIn 3s  backwards;
     }
     
     .image-logo {
-        margin-top: 70px;
+        /* margin-top: 70px; */
         width: 50%;
     }
 }
