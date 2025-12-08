@@ -1,16 +1,16 @@
-.card:hover{
-    height: fit-content;
-}
-
-.card:hover .info{
-    color: white;
-}
 .card{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     width: fit-content;
+}
+
+.card:hover {
+    height: fit-content;
+}
+
+.card:hover .info {
+    color: white;
 }
 .card-text{
     margin-left: 20px;
